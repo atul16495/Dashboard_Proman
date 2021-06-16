@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/proman.iml" filepath="$PROJECT_DIR$/proman.iml" />
+      <module fileurl="file://$PROJECT_DIR$/proman-api/proman-api.iml" filepath="$PROJECT_DIR$/proman-api/proman-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/proman-db/proman-db.iml" filepath="$PROJECT_DIR$/proman-db/proman-db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/proman-service/proman-service.iml" filepath="$PROJECT_DIR$/proman-service/proman-service.iml" />
+    </modules>
+  </component>
+</project>

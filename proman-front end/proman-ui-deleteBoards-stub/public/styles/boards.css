@@ -1,0 +1,157 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    height: 100vh;
+  }
+  
+  input[type="text"] {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    border-color: #e2e2e2;
+    color: #333;
+    outline: 0;
+    font-size: 14px;
+  }
+  
+  .edit-button:hover {
+    color: #0071dc;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    color: #cf2323;
+    cursor: pointer;
+  }
+  
+  input[type="text"] {
+    padding-bottom: 10px;
+  }
+  
+  .container {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    flex-direction: column;
+  }
+  
+  .header {
+    background: #0071dc;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    border-radius: 0.4rem;
+    margin-bottom: 20px;
+  }
+  
+  .brand {
+    flex: 1;
+    font-weight: bold;
+    padding-left: 20px;
+  }
+  
+  .add-item-wrapper {
+    flex: 3;
+    margin: 0 auto;
+  }
+  
+  .add-item-input {
+    height: 30px;
+    padding: 10px;
+    border-radius: 0.2rem;
+    border: 0;
+  }
+  
+  .page-content {
+    height: 90%;
+    display: flex;
+  }
+  
+  .text-input {
+    border: 0;
+  }
+  
+  .add-item-row {
+    margin: 16px 40px 16px 0px;
+  }
+  
+  .board-list-container {
+    width: 70%;
+    border-radius: 0.4rem;
+    box-shadow: 0 0 11px 6px hsla(0, 0%, 77.6%, 0.17);
+    margin: 0 auto;
+  }
+  
+  .list-header {
+    margin: 5%;
+  }
+  
+  .board-list {
+    margin: 5%;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .board-li {
+    padding: 20px 0px;
+    list-style-type: none;
+    display: flex;
+    border-bottom: 1px solid #eee;
+    transition: 0.2s;
+  }
+
+  .country-li {
+      list-style: none;
+  }
+  
+  hr {
+    border: 0px;
+    border-bottom: 1px solid rgb(223, 218, 218);
+  }
+  .item-title {
+    flex: 5;
+  }
+  
+  .item-actions {
+    flex: 2;
+    display: flex;
+  }
+  
+  .edit-button {
+    flex: 1;
+  }
+  
+  .delete-button {
+    flex: 1;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .no-data {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 0;
+  }
+
+  .add-item-wrapper {
+      height: 100px;
+  }
+
+.country-ul > div {
+    padding: 20px;;
+}
+
